@@ -9,8 +9,13 @@ function App() {
   const shoppingItems = [
       {
         id: 1,
-        name: "Potet",
-        amount: 7
+        name: "Melk",
+        amount: 2
+      },
+      {
+        id: 2,
+        name: "Egg",
+        amount: 12
       }
   ]
 
