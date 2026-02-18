@@ -31,7 +31,7 @@ export default function AddForm({shoppingItem, setShoppingItem, setShoppingList}
             <label htmlFor="shoppingitemname">Vare</label>
             <input name="name" type="text" id="shoppingitemname" placeholder="Brød..." onChange={handleChange} value= {shoppingItem?.name || ""} />
             <label htmlFor="shoppingitemamount">Antall</label>
-            <input name="amount" type="number" id="shoppingitemamount" onChange={handleChange} value={shoppingItem?.amount || ""} min="1"></input>
+            <input name="amount" type="number" id="shoppingitemamount" placeholder="2" onChange={handleChange} value={shoppingItem?.amount || ""} min="1"></input>
             {error && <p className="error">{error}</p>}
             <button>Legg til vare</button>
         </form>

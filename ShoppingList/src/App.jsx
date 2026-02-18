@@ -27,8 +27,10 @@ function App() {
 
   return (
     <main>
-      <AddForm shoppingItem={shoppingItem} setShoppingItem={setShoppingItem} setShoppingList={setShoppingList}/>
-      <ShoppingList shoppingItems={shoppingList} setShoppingList={setShoppingList} />
+      <section className="shopping-container">
+        <AddForm shoppingItem={shoppingItem} setShoppingItem={setShoppingItem} setShoppingList={setShoppingList}/>
+        <ShoppingList shoppingItems={shoppingList} setShoppingList={setShoppingList} />
+      </section>
     </main>
   )
 }
