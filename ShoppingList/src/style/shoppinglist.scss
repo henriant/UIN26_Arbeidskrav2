@@ -1,0 +1,38 @@
+.shopping-list {
+  background: white;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+
+  .shopping-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    input[type="checkbox"] {
+      margin-right: 10px;
+    }
+
+    h3 {
+      margin: 0;
+      flex: 1;
+      color: #333;
+    }
+
+    input[type="number"] {
+      width: 50px;
+      padding: 5px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      text-align: center;
+    }
+  }
+}
